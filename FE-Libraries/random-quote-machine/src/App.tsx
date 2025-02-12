@@ -1,4 +1,4 @@
-import './app.css';
+import './App.css';
 import { useEffect, useState } from 'react';
 import { RefreshCcw, Twitter } from 'lucide-react';
 import { motion } from 'framer-motion';

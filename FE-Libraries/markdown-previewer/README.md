@@ -52,6 +52,9 @@ A simple and interactive Markdown Previewer built using React, Redux, and TypeSc
    - Lists: `- Item`
    - Code: `` `inline code` `` or fenced code blocks.
 
+## Live Demo
+
+[Live Demo](https://fcc-projects-markdown.vercel.app/)
 
 ## License
 
