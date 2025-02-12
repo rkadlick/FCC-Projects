@@ -1,5 +1,5 @@
 import './app.css';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { RefreshCcw, Twitter } from 'lucide-react';
 import { motion } from 'framer-motion';
 

@@ -62,6 +62,9 @@ To run this project locally, you will need to have [Node.js](https://nodejs.org)
 
     This will start the React development server and open the Pomodoro Clock in your default web browser (usually at `http://localhost:3000`).
 
+## Live Demo
+
+[Live Demo](https://fcc-projects-pomodoro.vercel.app/)
 
 ## License
 
