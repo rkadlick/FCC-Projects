@@ -13,10 +13,10 @@ const sounds: { [key: string]: Sound } = {
   E: { sound: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3', description: 'Heater 3', audioRef: React.createRef<HTMLAudioElement | null>() },
   A: { sound: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3', description: 'Heater 4', audioRef: React.createRef<HTMLAudioElement | null>() },
   S: { sound: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3', description: 'Heater 6', audioRef: React.createRef<HTMLAudioElement | null>() },
-  D: { sound: 'https://s3.amazonaws.com/freecodecamp/drums/Drums-01.mp3', description: 'Drums 1', audioRef: React.createRef<HTMLAudioElement | null>() },
+  D: { sound: 'https://s3.amazonaws.com/freecodecamp/drums/Dsc-Oh.mp3', description: 'Drums 1', audioRef: React.createRef<HTMLAudioElement | null>() },
   Z: { sound: 'https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3', description: 'Kick n Hat', audioRef: React.createRef<HTMLAudioElement | null>() },
   X: { sound: 'https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3', description: 'RP4 Kick', audioRef: React.createRef<HTMLAudioElement | null>() },
-  C: { sound: 'https://s3.amazonaws.com/freecodecamp/drums/Cymbal_1.mp3', description: 'Cymbal 1', audioRef: React.createRef<HTMLAudioElement | null>() },
+  C: { sound: 'https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3', description: 'Cymbal 1', audioRef: React.createRef<HTMLAudioElement | null>() },
 };
 
 const DrumMachine: React.FC = () => {
