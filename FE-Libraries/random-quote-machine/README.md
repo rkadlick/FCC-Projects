@@ -56,6 +56,9 @@ Check out the live version here: [Random Quote Machine](#)
 2. Click the "New Quote" button to fetch another random quote.
 3. Share the current quote on Twitter by clicking the "Tweet" button.
 
+## Live Demo
+[Live Demo](https://fcc-projects-quote.vercel.app/)
+
 ## License
 
 MIT License
