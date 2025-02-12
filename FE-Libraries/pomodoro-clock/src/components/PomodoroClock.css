@@ -1,0 +1,143 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* General Reset and Base Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5F5; /* Light gray background */
+    color: #212121; /* Dark gray text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.pomodoro-clock {
+    background-color: #EEEEEE; /* Slightly lighter gray container */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Settings Section */
+.settings {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.setting-group {
+    margin: 0 15px;
+}
+
+#break-label, #session-label {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls button {
+    background-color: #26A69A; /* Primary Teal color */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #00796B; /* Darker Teal on hover */
+}
+
+.controls span {
+    font-size: 1.3em;
+    font-weight: 600;
+    min-width: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Timer Section */
+.timer {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+#timer-label {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #26A69A; /* Primary Teal for Timer Label */
+}
+
+#time-left {
+    font-size: 3.5em;
+    font-weight: 400; /* Adjusted font weight for time */
+    letter-spacing: 2px; /* Slightly increased letter spacing for time */
+    color: #333;
+}
+
+
+.timer-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.timer-controls button {
+    background-color: #26A69A; /* Primary Teal color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 15px;
+    transition: background-color 0.3s ease;
+}
+
+.timer-controls button:hover {
+    background-color: #00796B; /* Darker Teal on hover */
+}
+
+/* Test 13 Explanation Component Styles (in CSS file for better organization) */
+.test13-explanation-container {
+    /* Already positioned fixed in component's inline styles */
+    text-align: left;
+}
+
+.explanation-title-button {
+    /* Styles already in component's inline styles */
+    text-align: left; /* Ensure text is left-aligned within button */
+    display: block; /* Make button full width to align left effectively */
+}
+
+.explanation-paragraph {
+    /* Styles already in component's inline styles */
+    text-align: left; /* Ensure text is left-aligned in paragraph */
+}

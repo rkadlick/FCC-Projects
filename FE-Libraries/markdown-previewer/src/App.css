@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* src/App.css */
+body {
+  font-family: Lato, sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.app {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+h1 {
+  color: #333;
+  font-weight: 700; /* Bold */
+}
+
+p, textarea, #preview {
+  font-weight: 400; /* Regular */
+}
+
+blockquote {
+  font-weight: 300; /* Light */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.editor-container,
+.preview-container {
+  width: 48%;
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  width: 90%;
+  height: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+#preview {
+  text-align: left;
+  min-height: 500px;
+  max-height: 500px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .editor-container,
+  .preview-container {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  textarea {
+    width: 90%;
+    height: 300px;
+  }
+
+  #preview {
+    min-height: 300px;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  textarea {
+    font-size: 14px;
+    height: 250px;
+  }
+
+  #preview {
+    min-height: 250px;
+    max-height: 250px;
+  }
+}

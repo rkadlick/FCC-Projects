@@ -1,0 +1,102 @@
+#root{
+  display: flex;
+  margin: auto;
+}
+
+h1{
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  font-family: 'Delius', sans-serif;
+}
+
+.calculator {
+  width: 300px;
+  margin: 50px auto;
+  border: 2px solid #283c50; /* Darker border */
+  padding: 10px;
+  background-color: #1e2b36; /* Deep blue background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Prevent content from overflowing rounded corners */
+}
+
+#expression {
+  background-color: #2c3f52; /* Slightly lighter blue for display */
+  color: #696df0; /* Light text color */
+  padding: 10px;
+  text-align: right;
+  font-size: 18px; /* Larger font size */
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #374d64;
+  box-sizing: border-box; /* Include border in padding and width */
+  overflow: hidden; /* Prevent text from overflowing */
+}
+
+#display {
+  background-color: #2c3f52; /* Slightly lighter blue for display */
+  color: #e0e8ef; /* Light text color */
+  padding: 10px;
+  text-align: right;
+  font-size: 24px; /* Larger font size */
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #374d64;
+  box-sizing: border-box; /* Include border in padding and width */
+  overflow: hidden; /* Prevent text from overflowing */
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px; /* Increased gap */
+  padding: 8px; /* Add padding to the button container */
+}
+
+button {
+  padding: 12px; /* Increased padding */
+  font-size: 18px; /* Larger font size */
+  border: none; /* Removed default border */
+  background-color: #374d64; /* Darker blue buttons */
+  color: #e0e8ef; /* Light text */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+  transition: background-color 0.2s ease, transform 0.1s ease; /* Smooth transitions */
+}
+
+button:hover {
+  background-color: #465f79; /* Slightly lighter on hover */
+  transform: translateY(-2px); /* Lift up slightly on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* More prominent shadow on hover */
+}
+
+button:active {
+  transform: translateY(0); /* Reset lift on click */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Reset shadow on click */
+}
+
+#equals {
+  grid-row: span 2;
+  background-color: #007bff; /* Highlighted equals button */
+  color: white;
+}
+
+#equals:hover {
+  background-color: #0069d9;
+}
+
+#clear {
+    background-color: #dc3545; /* Red clear button */
+    color: white;
+    grid-column: span 2;
+}
+
+#clear:hover {
+    background-color: #c12a36;
+}
+
+#zero {
+  grid-column: span 2;
+}

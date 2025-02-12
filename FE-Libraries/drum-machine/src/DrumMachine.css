@@ -1,0 +1,46 @@
+/* DrumMachine.css */
+#drum-machine {
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* Center horizontally */
+	justify-content: center; /* Center vertically */
+	width: 100%; /* Adjust as needed */
+	border: 2px solid #ccc;
+	padding: 20px;
+  }
+  
+h1 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	width: 20rem;
+	text-align: center; /* Center the text */
+  }
+  
+  .drum-pads {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+	gap: 10px; /* Spacing between pads */
+  }
+  
+  .drum-pad {
+	background-color: #ddd;
+	border: 1px solid #ccc;
+	padding: 15px;
+	text-align: center;
+	cursor: pointer;
+	user-select: none; /* Prevent text selection */
+	transition: background-color 0.2s; /* Smooth transition for hover effect */
+  }
+  
+  .drum-pad:hover {
+	background-color: #c0c0c0; /* Slightly darker on hover */
+  }
+  
+  .drum-pad:active {
+	background-color: #aaa;  /* Even darker when clicked */
+	transform: scale(0.95); /* Slightly shrink on click */
+  }
+  
+  audio {
+	display: none; /* Hide the audio element */
+  }
