@@ -1,6 +1,6 @@
-# My React Projects Portfolio
+# FreeCodeCamp Front End Libraries Projects
 
-This repository contains a collection of small React projects, each designed to demonstrate different aspects of front-end development.  Each project is contained within its own directory and can be deployed independently.
+This repository houses a collection of projects built as part of the FreeCodeCamp Front End Libraries certification.  Currently, it contains projects demonstrating proficiency in React, Redux, and other front-end technologies.  This repository is designed to be expandable, allowing for the addition of more projects and potentially other FreeCodeCamp certifications in the future.
 
 ## Projects
 
