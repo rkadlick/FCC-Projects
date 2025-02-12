@@ -61,6 +61,10 @@ The project uses audio samples from FreeCodeCamp:
 
 You can replace these with your own audio samples if you wish.  Just update the `sounds` object in `App.tsx` with the new file paths and descriptions.  Remember to host your audio files somewhere or include them in the `public` directory if you are using local files.
 
+## Live Demo
+
+[Live Demo](https://fcc-projects-one.vercel.app/)
+
 ## License
 
 MIT License

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import Button from "./components/Button";
 import Decimal from "decimal.js";
@@ -9,6 +9,27 @@ interface CalculatorState {
   operator: string | null; // Keep track of the last operator
   evaluated: boolean; // Flag to indicate if the expression has been evaluated
 }
+
+interface ButtonLabels {
+  [key: string]: string;
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+  "4": string;
+  "5": string;
+  "6": string;
+  "7": string;
+  "8": string;
+  "9": string;
+  ".": string;
+  "=": string;
+  "+": string;
+  "-": string;
+  "*": string;
+  "/": string;
+  "C": string;
+};
 
 function App() {
   const [calculatorState, setCalculatorState] = useState<CalculatorState>({
@@ -201,7 +222,7 @@ function App() {
 
   ];
 
-  const buttonIds = {
+  const buttonIds : ButtonLabels = {
     "0": "zero",
     "1": "one",
     "2": "two",
